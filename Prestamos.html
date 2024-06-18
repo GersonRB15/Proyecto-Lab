@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulario de Prestamo</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <form action="/tu-script-de-procesamiento" method="post">
+        <table>
+          <tr>
+            <td><label for="name">Nombre:</label></td>
+            <td><input type="text" id="name" name="name" required></td>
+          </tr>
+          <tr>
+            <td><label for="bookname">Nombre del libro:</label></td>
+            <td><input type="text" id="bookname" name="bookname" required></td>
+          </tr>
+          <tr>
+            <td><label for="loandate">Fecha de préstamo:</label></td>
+            <td><input type="date" id="loandate" name="loandate" required></td>
+          </tr>
+          <tr>
+            <td><label for="returndate">Fecha de devolución:</label></td>
+            <td><input type="date" id="returndate" name="returndate" required></td>
+          </tr>
+          <tr>
+            <td colspan="2"><button type="submit">Enviar</button></td>
+          </tr>
+        </table>
+      </form>
+      
+</body>
+</html>
